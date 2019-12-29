@@ -5,11 +5,11 @@
   <groupId>com.innovalog</groupId>
   <artifactId>workflow_utils</artifactId>
   <name>Jira Workflow Utilities</name>
-  <version>1.49-SNAPSHOT</version>
+  <version>1.53.jira7-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <properties>
-    <jira.version>5.2.4</jira.version>
+    <jira.version>6.4</jira.version>
     <maven.javadoc.skip>true</maven.javadoc.skip>
   </properties>
 
@@ -35,14 +35,14 @@
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
         <configuration>
-          <source>1.6</source>
-          <target>1.6</target>
+          <source>1.7</source>
+          <target>1.7</target>
         </configuration>
       </plugin>
       <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-release-plugin</artifactId>
-        <version>2.5.2</version>
+      	<groupId>org.apache.maven.plugins</groupId>
+      	<artifactId>maven-release-plugin</artifactId>
+      	<version>2.5.2</version>
       </plugin>
     </plugins>
     <extensions>
